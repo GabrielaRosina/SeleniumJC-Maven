@@ -1,0 +1,6 @@
+{
+  "Logo": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[@class='spotify-logo']"
+  }
+}

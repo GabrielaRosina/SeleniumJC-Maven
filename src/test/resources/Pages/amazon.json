@@ -1,0 +1,29 @@
+{
+"Mi Cuenta": {
+"GetFieldBy": "Xpath",
+"ValueToFind": "//span[contains(text(),'Mi cuenta')]"
+},
+
+  "Mis Pedidos": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[2]/div[1]/a/div/div/div/div[2]/h2[contains(text(),'Mis pedidos')]"
+  },
+
+  "Sobre Amazon": {
+    "GetFieldBy": "link",
+    "ValueToFind": "Sobre Amazon.es"
+  },
+
+  "Aceptar Cookies": {
+    "GetFieldBy": "id",
+    "ValueToFind": "sp-cc-accept"
+  },
+
+  "Es Tendencia": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(text(),'Es tendencia')]"
+  }
+
+
+
+}
