@@ -41,7 +41,6 @@ public class WebDriverFactory {
         /******** The driver selected is Chrome  ********/
 
         else if ("CHROME".equalsIgnoreCase(browser)) {
-            System.out.println("ACAAAAAA");
             if("MAC".equalsIgnoreCase(os)){
                 System.setProperty("webdriver.chrome.driver", resourceFolder+os+"/chromedriver 9");
             }
